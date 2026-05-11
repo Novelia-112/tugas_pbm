@@ -15,7 +15,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Katalog Produk',
       debugShowCheckedModeBanner: false,
-      // Tema gelap abu-abu hitam untuk seluruh aplikasi
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: const Color(0xFF121212),
         colorScheme: const ColorScheme.dark(
