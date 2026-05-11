@@ -246,7 +246,7 @@ class _HomePageState extends State<HomePage> {
 
           const SizedBox(height: 12),
 
-          // FutureBuilder untuk memuat list produk - mengikuti pola pbm10
+          
           Expanded(
             child: FutureBuilder<List<Product>>(
               future: _futureProducts,
